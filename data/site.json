@@ -1,0 +1,127 @@
+{
+  "event": {
+    "label": "Webinar",
+    "title": "Strengthening Telemedicine Together",
+    "subtitle": "Sharing Success, Addressing Challenges, Building Skills and Fostering Collaboration",
+    "date": "19 November 2026",
+    "day": "Thursday",
+    "time": "2:30 PM",
+    "timezone": "Nepal Time (GMT +5:45)",
+    "mode": "Online",
+    "audience": "Government agencies, health facilities, hospitals, NGOs, INGOs and development partners",
+    "description": "A collaborative webinar focused on sharing practical telemedicine experience, discussing current challenges, building skills, and identifying opportunities to expand effective telemedicine services.",
+    "registrationUrl": "#",
+    "poster": "assets/images/webinar-poster.png"
+  },
+  "themes": [
+    {
+      "title": "Success",
+      "subtitle": "What is working well",
+      "description": "Share practical examples, useful approaches and lessons from telemedicine programs that are already producing positive results.",
+      "icon": "chart"
+    },
+    {
+      "title": "Challenges",
+      "subtitle": "Key issues and lessons",
+      "description": "Discuss barriers affecting access, patient flow, coordination, infrastructure, staffing and routine service delivery.",
+      "icon": "flag"
+    },
+    {
+      "title": "Opportunities",
+      "subtitle": "Ideas for wider use and impact",
+      "description": "Explore practical ways to improve awareness, collaboration, service use, skills transfer and long-term sustainability.",
+      "icon": "bulb"
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Speaker Name",
+      "photo": "assets/images/speaker-placeholder.svg",
+      "affiliation": "Organization / Institution",
+      "designation": "Position / Role",
+      "topic": "Presentation topic will be updated",
+      "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
+    },
+    {
+      "name": "Speaker Name",
+      "photo": "assets/images/speaker-placeholder.svg",
+      "affiliation": "Organization / Institution",
+      "designation": "Position / Role",
+      "topic": "Presentation topic will be updated",
+      "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
+    },
+    {
+      "name": "Speaker Name",
+      "photo": "assets/images/speaker-placeholder.svg",
+      "affiliation": "Organization / Institution",
+      "designation": "Position / Role",
+      "topic": "Presentation topic will be updated",
+      "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
+    },
+    {
+      "name": "Speaker Name",
+      "photo": "assets/images/speaker-placeholder.svg",
+      "affiliation": "Organization / Institution",
+      "designation": "Position / Role",
+      "topic": "Presentation topic will be updated",
+      "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
+    },
+    {
+      "name": "Speaker Name",
+      "photo": "assets/images/speaker-placeholder.svg",
+      "affiliation": "Organization / Institution",
+      "designation": "Position / Role",
+      "topic": "Presentation topic will be updated",
+      "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
+    }
+  ],
+  "organizers": [
+    {
+      "name": "Organizer Name",
+      "photo": "assets/images/organizer-placeholder.svg",
+      "post": "Program Coordinator",
+      "organization": "eHealth & Telemedicine Program, B.P. Koirala Institute of Health Sciences",
+      "intro": "Add a short introduction about the organizer, their role in the program and their area of work."
+    },
+    {
+      "name": "Organizer Name",
+      "photo": "assets/images/organizer-placeholder.svg",
+      "post": "Program Team",
+      "organization": "eHealth & Telemedicine Program, B.P. Koirala Institute of Health Sciences",
+      "intro": "Add a short introduction about the organizer, their role in the program and their area of work."
+    }
+  ],
+  "host": {
+    "title": "eHealth & Telemedicine Program",
+    "organization": "B.P. Koirala Institute of Health Sciences",
+    "location": "Ghopa, Dharan, Nepal",
+    "email": "ehealth@bpkihs.edu"
+  },
+  "agenda": [
+    {
+      "time": "2:30 PM",
+      "title": "Welcome and opening",
+      "description": "Introduction to the webinar and its objectives."
+    },
+    {
+      "time": "2:40 PM",
+      "title": "Success stories",
+      "description": "Examples of what is working well in telemedicine delivery."
+    },
+    {
+      "time": "3:05 PM",
+      "title": "Challenges and lessons",
+      "description": "Discussion of key field-level and system-level challenges."
+    },
+    {
+      "time": "3:30 PM",
+      "title": "Skills and collaboration",
+      "description": "Practical ideas for skills transfer, partnership and wider use."
+    },
+    {
+      "time": "3:50 PM",
+      "title": "Open discussion",
+      "description": "Questions, participant perspectives and next steps."
+    }
+  ]
+}
