@@ -22,7 +22,7 @@ body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSyst
 .info-card small { display:block; margin-top:.15rem; color:#64748b; }
 .section-kicker { font-size:.8rem; line-height:1.2; font-weight:800; text-transform:uppercase; letter-spacing:.18em; color:#0f8f97; }
 .section-title { margin-top:.65rem; font-size:2rem; line-height:1.15; font-weight:900; letter-spacing:-.025em; color:#08245c; }
-.card { border:1px solid rgb(226 232 240); background:white; border-radius:1.5rem; box-shadow:0 14px 40px rgba(8,36,92,.07); }
+.card { border:1px solid rgb(226 232 240); background:white; border-radius:0.5rem; box-shadow:0 14px 40px rgba(8,36,92,.07); }
 .card-hover { transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease; }
 .card-hover:hover { transform:translateY(-5px); border-color:rgba(15,143,151,.22); box-shadow:0 22px 56px rgba(8,36,92,.12); }
 .speaker-card { min-width:0; }
