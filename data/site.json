@@ -62,7 +62,15 @@
       "name": "Anish Malla",
       "photo": "assets/images/speaker-placeholder.svg",
       "affiliation": "Deumai Municipality, Ilam",
-      "designation": "Rediographer, Mangalbare PHC",
+      "designation": "Rediographer, Beni Healthpost",
+      "topic": "Presentation topic will be updated",
+      "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
+    },
+    {
+      "name": "Ang Lhamu Lama",
+      "photo": "assets/images/speaker-placeholder.svg",
+      "affiliation": "Solududhkunda Municipality, Solukhumbu",
+      "designation": "Public Health Inspector, Beni Healthpost",
       "topic": "Presentation topic will be updated",
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     }
