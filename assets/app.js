@@ -48,7 +48,7 @@ function renderSite(data) {
         <img class="speaker-photo" src="${person.photo}" alt="${escapeHtml(person.name)}">
       </div>
       <div class="speaker-body p-5">
-        <h3 class="text-lg font-black text-navy">${escapeHtml(person.name)}</h3>
+        <h3 class="text-sm font-black text-navy">${escapeHtml(person.name)}</h3>
         <p class="mt-1 text-sm font-bold text-tealx">${escapeHtml(person.designation)}</p>
         <p class="mt-1 text-xs leading-5 text-slate-500">${escapeHtml(person.affiliation)}</p>
       </div>
