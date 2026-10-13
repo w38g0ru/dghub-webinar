@@ -51,11 +51,6 @@ function renderSite(data) {
         <h3 class="text-lg font-black text-navy">${escapeHtml(person.name)}</h3>
         <p class="mt-1 text-sm font-bold text-tealx">${escapeHtml(person.designation)}</p>
         <p class="mt-1 text-xs leading-5 text-slate-500">${escapeHtml(person.affiliation)}</p>
-        <div class="speaker-topic mt-4">
-          <p class="text-[10px] font-black uppercase tracking-[.15em] text-navy">Topic</p>
-          <p class="mt-1.5 font-semibold leading-5 text-slate-700">${escapeHtml(person.topic)}</p>
-        </div>
-        <p class="speaker-bio mt-4 line-clamp-4 text-sm leading-6 text-slate-600">${escapeHtml(person.bio)}</p>
       </div>
     </article>
   `).join('');
