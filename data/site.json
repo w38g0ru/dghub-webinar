@@ -35,7 +35,7 @@
   ],
   "speakers": [
     {
-      "name": "Speaker Name",
+      "name": "Bhabendra Sherma",
       "photo": "assets/images/speaker-placeholder.svg",
       "affiliation": "Organization / Institution",
       "designation": "Position / Role",
@@ -43,7 +43,7 @@
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     },
     {
-      "name": "Speaker Name",
+      "name": "Menuka Shrestha",
       "photo": "assets/images/speaker-placeholder.svg",
       "affiliation": "Organization / Institution",
       "designation": "Position / Role",
@@ -51,7 +51,7 @@
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     },
     {
-      "name": "Speaker Name",
+      "name": "Sajin Shrestha",
       "photo": "assets/images/speaker-placeholder.svg",
       "affiliation": "Organization / Institution",
       "designation": "Position / Role",
@@ -59,15 +59,7 @@
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     },
     {
-      "name": "Speaker Name",
-      "photo": "assets/images/speaker-placeholder.svg",
-      "affiliation": "Organization / Institution",
-      "designation": "Position / Role",
-      "topic": "Presentation topic will be updated",
-      "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
-    },
-    {
-      "name": "Speaker Name",
+      "name": "Anish Malla",
       "photo": "assets/images/speaker-placeholder.svg",
       "affiliation": "Organization / Institution",
       "designation": "Position / Role",
