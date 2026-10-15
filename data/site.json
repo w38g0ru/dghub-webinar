@@ -35,10 +35,10 @@
   ],
   "speakers": [
     {
-      "name": "Prem Prasad Bhattarai",
-      "photo": "assets/images/prem-prasad-bhattarai.png",
-      "affiliation": "Mahalaxmi Municipality, Dhankuta",
-      "designation": "Public Health Inspector, Jitpur PHC",
+      "name": "Ang Lhamu Lama",
+      "photo": "assets/images/Ang-Lhamu-Lama.jpeg",
+      "affiliation": "Solududhkunda Municipality, Solukhumbu",
+      "designation": "Public Health Inspector, Beni Healthpost",
       "topic": "Presentation topic will be updated",
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     },
@@ -51,10 +51,10 @@
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     },
     {
-      "name": "Reeshi Ram Ghimire",
-      "photo": "assets/images/Reeshi-Ram-Ghimire.png",
-      "affiliation": "Champadevi Gaunpalika, Okhaldhunga",
-      "designation": "Sr. AHW, Palapu Health post ",
+      "name": "Prem Prasad Bhattarai",
+      "photo": "assets/images/prem-prasad-bhattarai.png",
+      "affiliation": "Mahalaxmi Municipality, Dhankuta",
+      "designation": "Public Health Inspector, Jitpur PHC",
       "topic": "Presentation topic will be updated",
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     },
@@ -67,10 +67,10 @@
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     },
     {
-      "name": "Ang Lhamu Lama",
-      "photo": "assets/images/Ang-Lhamu-Lama.jpeg",
-      "affiliation": "Solududhkunda Municipality, Solukhumbu",
-      "designation": "Public Health Inspector, Beni Healthpost",
+      "name": "Reeshi Ram Ghimire",
+      "photo": "assets/images/Reeshi-Ram-Ghimire.png",
+      "affiliation": "Champadevi Gaunpalika, Okhaldhunga",
+      "designation": "Sr. AHW, Palapu Health post ",
       "topic": "Presentation topic will be updated",
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     }
