@@ -43,10 +43,26 @@
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     },
     {
+      "name": "Bishal Sejuwal",
+      "photo": "assets/images/Ang-Lhamu-Lama.jpeg",
+      "affiliation": "Pathivara Yangwarak Rural Municipality , Taplejung",
+      "designation": "Health Assistant, Thechambu Healthpost",
+      "topic": "Presentation topic will be updated",
+      "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
+    },
+    {
       "name": "Menuka Shrestha",
       "photo": "assets/images/menuka_shrestha.png",
       "affiliation": "Salpasilicho Gaupalika, Bhojpur",
       "designation": "Sr. AWH, Kulung Healthpost",
+      "topic": "Presentation topic will be updated",
+      "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
+    },
+    {
+      "name": "Dr Pawan Moktan",
+      "photo": "assets/images/prem-prasad-bhattarai.png",
+      "affiliation": "Sotang Municipality,Solukhumbu",
+      "designation": "Medical Officer, Sotang PHC",
       "topic": "Presentation topic will be updated",
       "bio": "A short speaker introduction can be added here. Keep it to two or three sentences for easy reading."
     },
