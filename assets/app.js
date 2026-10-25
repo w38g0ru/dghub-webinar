@@ -69,7 +69,7 @@ function renderSite(data) {
 
 $('#organizersGrid').innerHTML = organizers.map(person => `
   <article class="card card-hover flex items-center gap-4 p-4">
-    <img class="h-24 w-24 shrink-0 rounded-xl object-cover" src="${person.photo}" alt="${escapeHtml(person.name)}" loading="lazy">
+    <img class="h-32 w-32 shrink-0 rounded-xl object-cover" src="${person.photo}" alt="${escapeHtml(person.name)}" loading="lazy">
     <div class="min-w-0">
       <h3 class="text-base font-bold text-navy">${escapeHtml(person.name)}</h3>
       <p class="mt-1 text-sm font-semibold text-tealx">${escapeHtml(person.post)}</p>
