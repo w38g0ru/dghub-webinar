@@ -94,32 +94,19 @@
   "organizers": [
     {
       "name": "Prof. (Dr.) Narendra Bhatta",
-      "photo": "https://bpkihs.edu/",
-      "post": "Organizing Chairperson",
+      "photo": "https://dghealthcon.net/images/prof-narendra-bhatta.jpg",
+      "post": "Focal Person, eHEalth & Telemedicine Program",
       "organization": "B.P. Koirala Institute of Health Sciences, Dharan, Nepal",
       "intro": "Leads the organizing committee and provides academic and institutional guidance for the webinar."
     },
     {
-      "name": "Dr. Caroline Perrin",
-      "photo": "https://dghealthcon.net/images/Caroline-Franck-Perrin.png",
-      "post": "Executive Director",
-      "organization": "Geneva Digital Hub, Switzerland",
-      "intro": "Provides leadership and supports international collaboration in digital health and telemedicine."
-    },
-    {
       "name": "Dr. Pramendra Prasad Gupta",
       "photo": "https://dghealthcon.net/images/pramednra-prasad-gupta.gif",
-      "post": "Organizing Secretary",
+      "post": "Medical Coordinator",
       "organization": "B.P. Koirala Institute of Health Sciences, Dharan, Nepal",
       "intro": "Coordinates organizing activities and supports the planning and implementation of the webinar."
     },
-    {
-      "name": "Rakesh Kumar Das",
-      "photo": "https://dghealthcon.net/images/rakesh-kumar-das-removebg-preview.png",
-      "post": "IT Coordinator",
-      "organization": "Computer Management Section, BPKIHS; Technical Coordinator, eHealth and Telemedicine Program",
-      "intro": "Supports technical coordination and IT requirements for the eHealth and Telemedicine Program."
-    },
+
     {
       "name": "Anish Bhattarai",
       "photo": "https://dghealthcon.net/images/anish-bhattarai.gif",
@@ -128,19 +115,19 @@
       "intro": "Coordinates program activities and supports the planning, communication, and implementation of telemedicine initiatives."
     },
     {
-      "name": "Uttam Khadka (Chettri)",
-      "photo": "https://dghealthcon.net/images/uttam-khadka-chettri.png",
-      "post": "Treasurer",
-      "organization": "Financial Administration Division, BPKIHS",
-      "intro": "Supports financial administration and budget-related coordination for the organizing committee."
-    },
-    {
-      "name": "Aakar Anil Ghimire",
+      "name": "Santoshi Limbu",
       "photo": "https://dghealthcon.net/images/aakar-anil-ghimire.gif",
-      "post": "Social Media Specialist",
+      "post": "SResearch Assitatn, Scaleup Program, BPKIHS",
       "organization": "CloudFactory",
       "intro": "Brings expertise in marketing operations and web communications to support digital outreach and webinar promotion."
-    }
+    },
+    {
+      "name": "Rakesh Kumar Das",
+      "photo": "https://dghealthcon.net/images/rakesh-kumar-das-removebg-preview.png",
+      "post": "IT Coordinator",
+      "organization": "Computer Management Section, BPKIHS; Technical Coordinator, eHealth and Telemedicine Program",
+      "intro": "Supports technical coordination and IT requirements for the eHealth and Telemedicine Program."
+    },
   ],
   "host": {
     "title": "eHealth & Telemedicine Program",
