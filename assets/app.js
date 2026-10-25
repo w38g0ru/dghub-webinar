@@ -55,12 +55,12 @@ function renderSite(data) {
     </article>
   `).join('');
 
-  $('#agendaList').innerHTML = agenda.map((item, index) => `
+  $('#agendaSummary').textContent = agenda.summary;
+  $('#agendaList').innerHTML = agenda.sessions.map((item, index) => `
     <article class="card flex gap-4 p-5 sm:gap-5">
       <div class="flex h-10 min-w-10 items-center justify-center rounded-full bg-navy text-sm font-black text-white">${index + 1}</div>
       <div>
-        <div class="text-sm font-black text-tealx">${escapeHtml(item.time)}</div>
-        <h3 class="mt-1 text-lg font-black text-navy">${escapeHtml(item.title)}</h3>
+        <h3 class="text-lg font-black text-navy">${escapeHtml(item.title)}</h3>
         <p class="mt-2 leading-7 text-slate-600">${escapeHtml(item.description)}</p>
       </div>
     </article>
