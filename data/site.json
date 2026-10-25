@@ -101,21 +101,21 @@
     },
     {
       "name": "Dr. Pramendra Prasad Gupta",
-      "photo": "https://dghealthcon.net/images/pramednra-prasad-gupta.gif",
+      "photo": "assets/images/dr-pramendra-gupta.png",
       "post": "Medical Coordinator",
       "organization": "B.P. Koirala Institute of Health Sciences, Dharan, Nepal",
       "intro": "Coordinates organizing activities and supports the planning and implementation of the webinar."
     },
     {
       "name": "Anish Bhattarai",
-      "photo": "https://dghealthcon.net/images/anish-bhattarai.gif",
+      "photo": "assets/images/Anish-Bhattarai.png",
       "post": "Technical Coordinator",
       "organization": "eHealth and Telemedicine Program (BPKIHS)",
       "intro": "Coordinates program activities and supports the planning, communication, and implementation of telemedicine initiatives."
     },
     {
       "name": "Santoshi Limbu",
-      "photo": "https://dghealthcon.net/images/aakar-anil-ghimire.gif",
+      "photo": "assets/images/Santoshi-Limbu.png",
       "post": "Research Assistant",
       "organization": "Scaleup Program (BPKIHS)",
       "intro": "Brings expertise in marketing operations and web communications to support digital outreach and webinar promotion."
