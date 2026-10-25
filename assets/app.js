@@ -66,17 +66,29 @@ function renderSite(data) {
     </article>
   `).join('');
 
-  $('#organizersGrid').innerHTML = organizers.map(person => `
-    <article class="card card-hover flex flex-col overflow-hidden sm:flex-row">
-      <img class="h-64 w-full object-cover sm:h-auto sm:w-52" src="${person.photo}" alt="${escapeHtml(person.name)}">
-      <div class="p-6">
-        <h3 class="text-xl font-black text-navy">${escapeHtml(person.name)}</h3>
-        <p class="mt-1 font-bold text-tealx">${escapeHtml(person.post)}</p>
-        <p class="mt-2 text-sm text-slate-500">${escapeHtml(person.organization)}</p>
-        <p class="mt-4 leading-7 text-slate-600">${escapeHtml(person.intro)}</p>
-      </div>
-    </article>
-  `).join('');
+
+$('#organizersGrid').innerHTML = organizers.map(person => `
+  <article class="card card-hover flex items-center gap-4 p-4">
+    <img
+      class="h-20 w-20 shrink-0 rounded-xl object-cover"
+      src="${person.photo}"
+      alt="${escapeHtml(person.name)}"
+      loading="lazy"
+    >
+    <div class="min-w-0">
+      <h3 class="text-base font-bold text-navy">
+        ${escapeHtml(person.name)}
+      </h3>
+      <p class="mt-1 text-sm font-semibold text-tealx">
+        ${escapeHtml(person.post)}
+      </p>
+      <p class="mt-1 text-sm leading-5 text-slate-500">
+        ${escapeHtml(person.organization)}
+      </p>
+    </div>
+  </article>
+`).join('');
+
 
   $('#hostTitle').textContent = host.title;
   $('#hostOrganization').textContent = host.organization;
