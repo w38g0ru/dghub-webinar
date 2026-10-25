@@ -113,31 +113,29 @@
     "location": "Ghopa, Dharan, Nepal",
     "email": "ehealth@bpkihs.edu"
   },
-  "agenda": [
-    {
-      "time": "2:30 PM",
-      "title": "Welcome and opening",
-      "description": "Introduction to the webinar and its objectives."
-    },
-    {
-      "time": "2:40 PM",
-      "title": "Success stories",
-      "description": "Examples of what is working well in telemedicine delivery."
-    },
-    {
-      "time": "3:05 PM",
-      "title": "Challenges and lessons",
-      "description": "Discussion of key field-level and system-level challenges."
-    },
-    {
-      "time": "3:30 PM",
-      "title": "Skills and collaboration",
-      "description": "Practical ideas for skills transfer, partnership and wider use."
-    },
-    {
-      "time": "3:50 PM",
-      "title": "Open discussion",
-      "description": "Questions, participant perspectives and next steps."
-    }
-  ]
+  "agenda": {
+    "summary": "Explore telemedicine success stories, discuss practical challenges, share lessons and strengthen skills and collaboration.",
+    "sessions": [
+      {
+        "title": "Welcome and opening",
+        "description": "Introduction to the webinar and its objectives."
+      },
+      {
+        "title": "Success stories",
+        "description": "Examples of what is working well in telemedicine delivery."
+      },
+      {
+        "title": "Challenges and lessons",
+        "description": "Discussion of key field-level and system-level challenges."
+      },
+      {
+        "title": "Skills and collaboration",
+        "description": "Practical ideas for skills transfer, partnership and wider use."
+      },
+      {
+        "title": "Open discussion",
+        "description": "Questions, participant perspectives and next steps."
+      }
+    ]
+  }
 }
