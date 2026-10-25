@@ -126,7 +126,14 @@
       "post": "IT Head",
       "organization": "B.P. Koirala Institute of Health Sciences",
       "intro": "Supports technical coordination and IT requirements for the eHealth and Telemedicine Program."
-    }
+    },
+    {
+      "name": "Dr. Sophie Delaigue",
+      "photo": "https://dghealthcon.net/images/Sophie-Delaigue.png",
+      "post": "Digital Health Specialist",
+      "organization": "University of Geneva (gdHub)",
+      "intro": "Supports technical coordination and IT requirements for the eHealth and Telemedicine Program."
+    },
   ],
   "host": {
     "title": "eHealth & Telemedicine Program",
