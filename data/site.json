@@ -107,18 +107,18 @@
       "intro": "Coordinates organizing activities and supports the planning and implementation of the webinar."
     },
     {
-      "name": "Anish Bhattarai",
-      "photo": "assets/images/Anish-Bhattarai.jpg",
-      "post": "Technical Coordinator",
-      "organization": "eHealth and Telemedicine Program (BPKIHS)",
-      "intro": "Coordinates program activities and supports the planning, communication, and implementation of telemedicine initiatives."
-    },
-    {
       "name": "Santoshi Limbu",
       "photo": "assets/images/Santoshi-Limbu.jpg",
       "post": "Research Assistant",
       "organization": "Scaleup Program (BPKIHS)",
       "intro": "Brings expertise in marketing operations and web communications to support digital outreach and webinar promotion."
+    },
+    {
+      "name": "Anish Bhattarai",
+      "photo": "assets/images/Anish-Bhattarai.jpg",
+      "post": "Technical Coordinator",
+      "organization": "eHealth and Telemedicine Program (BPKIHS)",
+      "intro": "Coordinates program activities and supports the planning, communication, and implementation of telemedicine initiatives."
     },
     {
       "name": "Rakesh Kumar Das",
