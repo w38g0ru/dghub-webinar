@@ -101,21 +101,21 @@
     },
     {
       "name": "Dr. Pramendra Prasad Gupta",
-      "photo": "assets/images/dr-pramendra-gupta.png",
+      "photo": "assets/images/dr-pramendra-gupta.jpg",
       "post": "Medical Coordinator, eHealth & Telemedicine Program",
       "organization": "B.P. Koirala Institute of Health Sciences, Dharan, Nepal",
       "intro": "Coordinates organizing activities and supports the planning and implementation of the webinar."
     },
     {
       "name": "Anish Bhattarai",
-      "photo": "assets/images/Anish-Bhattarai.png",
+      "photo": "assets/images/Anish-Bhattarai.jpg",
       "post": "Technical Coordinator",
       "organization": "eHealth and Telemedicine Program (BPKIHS)",
       "intro": "Coordinates program activities and supports the planning, communication, and implementation of telemedicine initiatives."
     },
     {
       "name": "Santoshi Limbu",
-      "photo": "assets/images/Santoshi-Limbu.png",
+      "photo": "assets/images/Santoshi-Limbu.jpg",
       "post": "Research Assistant",
       "organization": "Scaleup Program (BPKIHS)",
       "intro": "Brings expertise in marketing operations and web communications to support digital outreach and webinar promotion."
@@ -129,7 +129,7 @@
     },
     {
       "name": "Dr. Sophie Delaigue",
-      "photo": "assets/images/Sophie-Delaigue.png",
+      "photo": "assets/images/Sophie-Delaigue.jpg",
       "post": "Digital Health Specialist",
       "organization": "University of Geneva (gdHub)",
       "intro": "Supports technical coordination and IT requirements for the eHealth and Telemedicine Program."
