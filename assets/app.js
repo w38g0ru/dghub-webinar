@@ -42,18 +42,32 @@ function renderSite(data) {
     </article>
   `).join('');
 
-  $('#speakersGrid').innerHTML = speakers.map(person => `
-    <article class="speaker-card card card-hover overflow-hidden">
-      <div class="speaker-photo-wrap">
-        <img class="speaker-photo" src="${person.photo}" alt="${escapeHtml(person.name)}">
-      </div>
-      <div class="speaker-body p-5">
-        <h3 class="text-sm font-black text-navy">${escapeHtml(person.name)}</h3>
-        <p class="mt-1 text-sm font-bold text-tealx">${escapeHtml(person.designation)}</p>
-        <p class="mt-1 text-xs leading-5 text-slate-500">${escapeHtml(person.affiliation)}</p>
-      </div>
-    </article>
-  `).join('');
+  $('#speakersGrid').innerHTML = speakers.map(person => {
+    const videoUrl = getYouTubeUrl(person.presentation_youtube_url);
+
+    return `
+      <article class="speaker-card card card-hover overflow-hidden">
+        <div class="speaker-photo-wrap">
+          <img class="speaker-photo" src="${escapeHtml(person.photo)}" alt="${escapeHtml(person.name)}">
+        </div>
+        <div class="speaker-body p-5">
+          <h3 class="text-sm font-black text-navy">${escapeHtml(person.name)}</h3>
+          <p class="mt-1 text-sm font-bold text-tealx">${escapeHtml(person.designation)}</p>
+          <p class="mt-1 text-xs leading-5 text-slate-500">${escapeHtml(person.affiliation)}</p>
+          ${videoUrl ? `
+            <a href="${escapeHtml(videoUrl)}" target="_blank" rel="noopener noreferrer"
+               class="mt-4 inline-flex items-center gap-2 rounded-full bg-navy px-4 py-2 text-xs font-bold text-white transition hover:bg-tealx"
+               aria-label="Watch ${escapeHtml(person.name)}'s presentation on YouTube">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.8 4.7 12 4.7 12 4.7s-5.8 0-7.6.5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.8.5 7.6.5 7.6.5s5.8 0 7.6-.5a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8ZM10 15.5v-7l6 3.5-6 3.5Z"/>
+              </svg>
+              Watch presentation
+            </a>
+          ` : ''}
+        </div>
+      </article>
+    `;
+  }).join('');
 
   $('#agendaSummary').textContent = agenda.summary;
   $('#agendaList').innerHTML = agenda.sessions.map((item, index) => `
@@ -66,18 +80,16 @@ function renderSite(data) {
     </article>
   `).join('');
 
-
-$('#organizersGrid').innerHTML = organizers.map(person => `
-  <article class="card card-hover flex items-center gap-4 p-4">
-    <img class="h-32 w-28 shrink-0 rounded-l border border-black object-center" src="${person.photo}" alt="${escapeHtml(person.name)}" loading="lazy">
-    <div class="min-w-0">
-      <h3 class="text-base font-bold text-navy">${escapeHtml(person.name)}</h3>
-      <p class="mt-1 text-sm font-semibold text-tealx">${escapeHtml(person.post)}</p>
-      <p class="mt-1 text-sm leading-5 text-slate-500">${escapeHtml(person.organization)}</p>
-    </div>
-  </article>
-`).join('');
-
+  $('#organizersGrid').innerHTML = organizers.map(person => `
+    <article class="card card-hover flex items-center gap-4 p-4">
+      <img class="h-32 w-28 shrink-0 rounded-l border border-black object-center" src="${person.photo}" alt="${escapeHtml(person.name)}" loading="lazy">
+      <div class="min-w-0">
+        <h3 class="text-base font-bold text-navy">${escapeHtml(person.name)}</h3>
+        <p class="mt-1 text-sm font-semibold text-tealx">${escapeHtml(person.post)}</p>
+        <p class="mt-1 text-sm leading-5 text-slate-500">${escapeHtml(person.organization)}</p>
+      </div>
+    </article>
+  `).join('');
 
   $('#hostTitle').textContent = host.title;
   $('#hostOrganization').textContent = host.organization;
@@ -87,8 +99,20 @@ $('#organizersGrid').innerHTML = organizers.map(person => `
   $('#year').textContent = new Date().getFullYear();
 }
 
+function getYouTubeUrl(value) {
+  if (!value || typeof value !== 'string') return null;
+
+  try {
+    const url = new URL(value.trim());
+    const allowedHosts = ['youtube.com', 'www.youtube.com', 'm.youtube.com', 'youtu.be'];
+    return url.protocol === 'https:' && allowedHosts.includes(url.hostname) ? url.href : null;
+  } catch {
+    return null;
+  }
+}
+
 function escapeHtml(value = '') {
-  return String(value).replace(/[&<>'"]/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+  return String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char]));
 }
 
 $('#menuButton').addEventListener('click', () => $('#mobileMenu').classList.toggle('hidden'));
